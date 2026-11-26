@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Infectious Disease and Vaccine Center, The University of Jordan">
+<defs><path id="up" d="M 200 200 m -166 0 a 166 166 0 1 1 332 0"/><path id="down" d="M 200 200 m -178 0 a 178 178 0 0 0 356 0"/></defs>
+<circle cx="200" cy="200" r="194" fill="none" stroke="#FFFFFF" stroke-width="4"/><circle cx="200" cy="200" r="148" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+<g fill="#FFFFFF" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-weight="700" font-size="19" letter-spacing="2.4">
+<text text-anchor="middle"><textPath href="#up" startOffset="50%">INFECTIOUS DISEASE AND VACCINE CENTER</textPath></text>
+<text text-anchor="middle"><textPath href="#down" startOffset="50%">THE UNIVERSITY OF JORDAN</textPath></text></g>
+<circle cx="30" cy="200" r="5" fill="#FFFFFF"/><circle cx="370" cy="200" r="5" fill="#FFFFFF"/>
+<path d="M200 78c28 36 44 56 44 80a44 44 0 0 1-88 0c0-24 16-44 44-80z" fill="#FFFFFF"/>
+<g fill="#FFFFFF" font-family="Segoe UI, Tahoma, Arial, sans-serif" font-weight="700" font-size="25" text-anchor="middle" direction="rtl"><text x="200" y="250">مركز الأمراض المعدية</text><text x="200" y="288">والمطاعيم</text></g>
+<g fill="#FFFFFF"><circle cx="150" cy="318" r="4.5" /><circle cx="170" cy="318" r="4.5" /><circle cx="190" cy="318" r="4.5" /><circle cx="210" cy="318" r="4.5" /><circle cx="230" cy="318" r="4.5" fill-opacity="0.35"/><circle cx="250" cy="318" r="4.5" /></g></svg>
