@@ -62,6 +62,7 @@ html[lang="en"] .brand b { font-family: var(--font); font-size: 1.02rem; font-we
 .brand small { font-size: 0.66rem; color: var(--ink-soft); font-weight: 500; margin-top: 3px; }
 .nav { display: flex; flex-wrap: wrap; gap: 0 2px; flex: 1; min-width: 0; justify-content: center; height: 64px; overflow: hidden; }
 @media (max-width: 1180px) { .brand small { display: none; } }
+@media (max-width: 359px) { .brand { flex: 0 1 auto; min-width: 0; } html[lang="en"] .brand b { font-size: 0.92rem; } }
 .nav a { white-space: nowrap; text-decoration: none; padding: 20px 7px 17px; font-size: 0.86rem; font-weight: 600; border-bottom: 3px solid transparent; color: var(--ink-soft); }
 .nav a:hover { color: var(--ink); border-bottom-color: var(--line); }
 .nav a[aria-current="page"] { color: var(--blue); border-bottom-color: var(--blue); }
@@ -322,7 +323,7 @@ input[type="range"] { width: 100%; accent-color: var(--blue); }
 .dose .ref { color: var(--blue); }
 .dose .small { color: #CFE6F7; }
 .side { justify-content: stretch; }
-.streak, .progress { background: #fff; border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 4px; text-decoration: none; flex: 1; }
+.streak, .progress { background: #fff; border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 4px; text-decoration: none; flex: 1; min-width: 0; }
 .streak > span, .progress > span:first-child { font-size: 0.84rem; color: var(--ink-soft); font-weight: 500; }
 .streak b, .progress b { font-size: 2rem; font-weight: 800; line-height: 1.15; font-variant-numeric: tabular-nums; }
 .week { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin-top: 6px; direction: ltr; }
@@ -331,7 +332,7 @@ input[type="range"] { width: 100%; accent-color: var(--blue); }
 .week i.now { box-shadow: inset 0 0 0 2px var(--blue); }
 .week i.on.now { box-shadow: none; }
 .pips { display: flex; gap: 6px; margin-top: 4px; }
-.pips i { width: 22px; height: 8px; border-radius: 4px; background: var(--line); }
+.pips i { flex: 1 1 0; min-width: 0; max-width: 22px; height: 8px; border-radius: 4px; background: var(--line); }
 .pips i.on { background: var(--deep); }
 .quick { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
 .quick a { background: #fff; border-radius: 12px; padding: 14px; text-decoration: none; display: flex; flex-direction: column; gap: 2px; border-bottom: 3px solid transparent; }

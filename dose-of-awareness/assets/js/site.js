@@ -39,6 +39,8 @@
     if (apiReady) return apiReady;
     var set = C.apiBase || "", known = null;
     if (set && set !== "auto") { apiNow = set.replace(/\/$/, "") + "/api/"; apiReady = Promise.resolve(apiNow); return apiReady; }
+    // Inside the phone apps the pages are packed with the app, so "auto" looks for the server at the public address of the site.
+    if (set === "auto" && window.Capacitor && /^https?:\/\//.test(C.siteUrl || "")) { apiNow = C.siteUrl.replace(/\/$/, "") + "/api/"; apiReady = Promise.resolve(apiNow); return apiReady; }
     if (set !== "auto" || !/^https?:$/.test(location.protocol) || window.Capacitor) { apiReady = Promise.resolve(""); return apiReady; }
     var guess = new URL("api/", document.baseURI).href;
     try { known = window.sessionStorage.getItem("dw-api"); } catch (e) {}

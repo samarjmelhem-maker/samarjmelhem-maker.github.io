@@ -27,12 +27,13 @@ DW.config = {
   preview: true,
 
   // Public address of the site once it is live, without a trailing slash.
-  // Used by the QR tool and the share buttons. Example: "https://vaccines.ju.edu.jo"
+  // Used by the QR tool, the share buttons and the phone apps. Example: "https://vaccines.ju.edu.jo"
   siteUrl: "",
 
   // Campaign server.
-  //   "auto"  the site looks for the server at its own address (use this when the server hosts the site, as on Railway)
-  //   a full address, for example "https://dose.up.railway.app", when the pages are hosted elsewhere (university server, phone apps)
+  //   "auto"  the site looks for the server at its own address, and the phone apps look for it at siteUrl
+  //           (use this when the server hosts the site, as on Railway)
+  //   a full address, for example "https://dose.up.railway.app", when the pages are hosted on a different web server
   //   ""      no server: stamps, scores and pledges stay on the visitor's own device
   apiBase: "auto",
 
