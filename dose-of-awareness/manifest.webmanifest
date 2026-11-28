@@ -1,0 +1,52 @@
+{
+  "name": "جرعة وعي",
+  "short_name": "جرعة وعي",
+  "description": "ستة مطاعيم تصنع الفرق الأكبر في صحة الأسرة في الأردن. معلومات موثوقة من وزارة الصحة ومنظمة الصحة العالمية، يشرحها طلبة الصيدلة.",
+  "lang": "ar",
+  "dir": "rtl",
+  "id": "./",
+  "start_url": "./index.html?app=1",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0B67B2",
+  "categories": [
+    "health",
+    "education"
+  ],
+  "icons": [
+    {
+      "src": "assets/img/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "العب وتعلّم",
+      "url": "./index.html?app=1#play"
+    },
+    {
+      "name": "أي مطعوم أسأل عنه؟",
+      "url": "./index.html?app=1#checker"
+    },
+    {
+      "name": "فرق الطلبة",
+      "url": "./index.html?app=1#teams"
+    }
+  ]
+}
